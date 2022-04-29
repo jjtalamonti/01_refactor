@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+ /* color for Horseon name */
 body {
     background-color: #d9dcd6;
 }
-
+/* header and nav bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 {
     color: #d9dcd6;
 }
 
@@ -46,11 +46,13 @@ a {
     text-decoration: none;
 }
 
+/* text inside paragrapghs */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* main-photo */
+#main-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +61,46 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* search engine optimization image postion
+*/
+#float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/* online reputation management & social media marketing image postion */
+#float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content of website */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* paragraphs */
+.Blocks {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.Blocks img {
+    max-height: 200px;
+}
+
+.Blocks h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* side bar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +128,8 @@ p {
     max-width: 150px;
 }
 
-.Blocks {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.Blocks img {
-    max-height: 200px;
-}
-
-.Blocks h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* company ending tag */
 .footer {
     padding: 30px;
     clear: both;
