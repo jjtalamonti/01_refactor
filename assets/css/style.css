@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* header and nav bar */
+/* header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,13 +18,11 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 {
     color: #d9dcd6;
 }
 
-.header div {
+/* nav bar */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +30,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* a href in header */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -112,17 +111,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-2 {
+#benefit-2 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-2 h3 {
+#benefit-2 h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-2 img {
+#benefit-2 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -137,6 +136,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     font-size: 20px;
 }
